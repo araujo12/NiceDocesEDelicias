@@ -53,10 +53,26 @@
                             depois divoltis porris, paradis. Paisis, filhis, 
                             espiritis santis. Mé faiz elementum.
                         </p>
-                        <a href="" class="btn btn-primary btn-mini">Indicar a um amigo</a>
+                       <!-- <a href="" class="btn btn-primary btn-mini">Indicar a um amigo</a> -->
+                       <a href="#myModal" role="button" class="btn btn-primary btn-mini" data-toggle="model">Indicar a um amigo</a>
                         <a href="" class="btn btn-warning btn-mini">Comentar</a>
                     </div>
-
+                    <!-- Area do Modal -->
+                    <div class="modal hide fade">
+                        <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h3 id="myModalLabel">Modal header</h3>
+                            </div>
+                            <div class="modal-body">
+                                <p>Um corpo fino...</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn" data-dismiss="modal" aria-hidden="true">Fechar</button>
+                                <button class="btn btn-primary">Salvar mudanças</button>
+                            </div>
+                        </div>
+                    </div>
                 </article>
             </div>
             <div class="row-fluid">
